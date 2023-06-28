@@ -1,0 +1,303 @@
+/*CAJA DE QUISPERINA ESTILO*/
+nav {
+    
+    background-color: #ffffff;  /* Color de fondo de la barra */
+}
+  
+nav ul {
+  list-style-type: none;  /* Elimina los puntos de la lista */
+  margin: 0;  /* Elimina el margen */
+  padding: 0;  /* Elimina el padding */
+  text-align: right; 
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+}
+
+nav ul li {
+  display: inline-block;  /* Muestra los elementos en línea */
+}
+
+nav ul li a {
+  display: block;  /* Convierte los enlaces en bloques */
+  color: rgb(75, 74, 74);  /* Color del texto en los enlaces */
+  text-decoration: none;  /* Elimina la decoración de los enlaces */
+  padding: 15px 20px;  /* Espacio interno en los enlaces */
+}
+
+nav ul li a:hover {
+  background-color: #585858;  /* Cambia el color de fondo en el hover */
+  color: black;  /* Cambia el color del texto en el hover */
+}
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #1a60ab;
+  color: white;
+  border: none;
+border-radius: 4px;
+cursor: pointer;
+margin: 5px;
+font-size: 14px;
+font-family: Arial, sans-serif;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  background-color: #f7c334;
+  color: rgb(16, 16, 16);
+  font-size: 1.3em;
+  border: none;
+border-radius: 4px;
+cursor: pointer;
+margin: 5px;
+font-family: Arial, sans-serif;
+
+}
+/*ESTILOS DE SLIDER*/
+.container-slider {
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  width: 600%;
+  height: 450px;
+  margin-left: -100%;
+  position: relative;
+}
+.slider:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+.slider__section {
+  width: 100%;
+  position: relative;
+}
+.slider__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider__btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+}
+.slider__btn:hover {
+  background: #fff;
+}
+.slider__btn--left {
+  left: 10px;
+}
+.slider__btn--rigth {
+  right: 10px;
+}
+.slider__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+  z-index: 999;
+}
+.slider__title {
+  font-size: 2.2em;
+  margin: 0;
+}
+.slider__text {
+  margin: 5px 0;
+}
+.slider__link {
+  display: block;
+  border: 2px solid #c52525;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  margin: 20px auto;
+  transition: all 0.5s;
+}
+
+.slider__link:hover{
+background: #0d2340;
+color: #fac60d;
+}
+
+
+/*CAJA DE SHAYURI ESTILO*/
+
+.Caja-ortiz{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid rgb(15, 15, 15);
+    padding: 20px;
+}
+.servicio{
+ color: #fac60d;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-family: poppins;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.checklist-servicio{
+    width: 30%;
+}
+.subtitulo{
+    color: #fac60d;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-family: poppins;
+}
+.lionsimg {
+    width: 20%;
+    }
+.leoimg {
+        width: 25%;
+    }
+    
+
+
+/*CAJA DE DEIGO ESTILO*/
+
+.header{
+    width: 80%;
+    height: 80px;
+	background-color:saddlebrown;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cuadro1 {
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 55px;
+
+}
+.cuadro {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-container {
+
+    width: 1500px;
+    margin: 20px auto;
+    display: flex;
+    grid-template-columns: 1.5fr;
+    gap: 10px;
+}
+main {
+    width: 100%;
+}
+.card .info {
+
+    padding: 20px;
+}
+.card .tittle {
+
+    font-family: bolder;
+    font-size: 1.6em;
+}
+.card .description {
+
+    padding: 10px 0;
+    width: 650px;
+}
+.card .image {
+
+    background-color: aquamarine;
+    height: 300px;
+    overflow: hidden;
+    border-radius: inherit;
+
+}
+
+.card2 {
+
+   background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    height: 300px;
+    width: 1500px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.card {
+
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    height: 300px;
+    width: 1000px;
+
+}
+.title {
+    color: goldenrod;
+    margin-top: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description {
+    padding: 10px 0;
+    width: 650px;
+    margin-top: 15px;
+    margin-left: 150px;;
+ 
+}
+.image {
+    background-color:white;
+    height: 300px;
+    width: 645px;
+    border-radius: inherit; 
+}
+.image2 {
+    background-color:white;
+    height: 330px;
+    width: 540px;
+    border-radius: inherit; 
+}
